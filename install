@@ -1,0 +1,4 @@
+#!/bin/bash
+bundle install
+gem build pega_scan.gemspec
+gem install --local pega_scan-0.0.1.gem
